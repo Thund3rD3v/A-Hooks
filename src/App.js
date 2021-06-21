@@ -20,7 +20,7 @@ function App() {
         content:data.message
       })
     }).then(res => {
-      if (res.ok == true) {
+      if (res.ok) {
         NotificationManager.success('successfully sent');
       } else {
         NotificationManager.error('Please try again');
