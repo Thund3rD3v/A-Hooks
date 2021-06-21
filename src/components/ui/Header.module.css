@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+.header {
+    background: linear-gradient(90deg, #292b2c, #2c2e30, #2f3233, #333537, #36393b, #393d3e, #3d4042, #404446);
+    width: 100vw;
+    text-align: center;
+    
+}
+
+.header h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 46px;
+    display: inline;
+    color:var(--light);
+}

@@ -1,0 +1,55 @@
+.HookFormContainer {
+    background-color: var(--gray);
+    margin-top: 20vh;
+    padding: 15px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 12px 7px rgba(0,0,0,0.55); 
+box-shadow: 0px 0px 12px 7px rgba(0,0,0,0.55);
+
+
+
+}
+
+.HookFormContainer form {
+    display: grid;
+}
+
+.HookFormContainer form label {
+    color: var(--light);
+    margin-top: 5px;
+}
+
+.HookFormContainer form textarea {
+    resize: none;
+}
+
+.SendButton {
+    margin-top: 10px;
+    background-color: #0275d8;
+    border: none;
+    border-radius: 15px;
+    color:var(--light);
+    font-size: 14px;
+}
+
+.SendButton:hover {
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(255,64,160,0); 
+box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(255,64,160,0);
+}
+
+.HookFormContainer form input {
+    background-color: var(--dark);
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    color:var(--light);
+}
+
+
+.HookFormContainer form textarea {
+    background-color: var(--dark);
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    color:var(--light);
+}
